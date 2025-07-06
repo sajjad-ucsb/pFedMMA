@@ -7,7 +7,7 @@ The implementation of paper pFedMMA: Personalized Federated Fine-Tuning with Mul
 You can run `federated_main.py` with some specified arguments.
 
 ## Data Preparation
-Please follow the instructions at CoOP https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md to prepare the following datasets: Caltech101, OxfordPets, Flowers102, Food101, DTD.
+Please follow the instructions at CoOP https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md to prepare the following datasets: SUN397, Caltech101, OxfordPets, Flowers102, Food101, DTD, UCF101.
 
 For CIFAR10 and CIFAR100 datasets, please download and unzip data under `DATA/` file catalog. Or simply run experiments with CIFAR10/CIFAR100 dataset, the program will download data automatically.
 
@@ -22,15 +22,10 @@ For DomainNet and office-caltech10 datasets, please follow the instructions of D
 You can select variables like shots, users by changing `cfg` or you can change every arguments you like in scripts.
 
 ### Running example
-`bash scripts/plt_few_shot.sh`
-## Citation
-If you find our work useful in your research, please consider citing:
-```
-@article{cui2024harmonizing,
-  title={Harmonizing Generalization and Personalization in Federated Prompt Learning},
-  author={Cui, Tianyu and Li, Hongxia and Wang, Jingya and Shi, Ye},
-  journal={arXiv preprint arXiv:2405.09771},
-  year={2024}
-}
-```
+Base-to-Novel Class Generalization: `bash scripts/base2new.sh`
+
+Model Evaluation on Feature & Label Shifts: `bash scripts/DomainNet.sh`
+
+CIFAR-10/CIFAR-100: `bash scripts/pfedmma_cifar.sh`
+
 

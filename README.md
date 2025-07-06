@@ -31,5 +31,5 @@ CIFAR-10/CIFAR-100: `bash scripts/pfedmma_cifar.sh`
 
 ## Acknowledgement
 
-We would like to thank the authors for releasing the public repository: [MMA]([https://github.com/alibaba/FederatedScope/tree/llm](https://github.com/ZjjConan/VLM-MultiModalAdapter)), [FedPGP](https://github.com/TianyuCuiOvO/FedPGP/tree/main).
+We would like to thank the authors for releasing the public repository: [MMA]([https://github.com/alibaba/FederatedScope/tree/llm](https://github.com/ZjjConan/VLM-MultiModalAdapter), [FedPGP](https://github.com/TianyuCuiOvO/FedPGP/tree/main).
 

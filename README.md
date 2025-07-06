@@ -1,7 +1,7 @@
-# Harmonizing Generalization and Personalization in Federated Prompt Learning [ICML2024]
-The implementation of paper Harmonizing Generalization and Personalization in Federated Prompt Learning[ICML2024].
+# pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models
+The implementation of paper pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models.
 [[paper]]()
-![pFedMMA-pipeline](pFedMMA.pdf "pFedMMA-pipeline")
+![pFedMMA-pipeline](pFedMMA.png "pFedMMA-pipeline")
 ## How to Run
 
 You can run `federated_main.py` with some specified arguments.

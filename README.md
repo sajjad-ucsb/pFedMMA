@@ -33,3 +33,14 @@ CIFAR-10/CIFAR-100: `bash scripts/pfedmma_cifar.sh`
 
 We would like to thank the authors for releasing the public repository: [MMA](https://github.com/ZjjConan/VLM-MultiModalAdapter), [FedPGP](https://github.com/TianyuCuiOvO/FedPGP/tree/main).
 
+
+## Citation
+If you find this project helpful, please consider to cite the following paper:
+```
+@article{ghiasvand2025pfedmma,
+  title={pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models},
+  author={Ghiasvand, Sajjad and Alizadeh, Mahnoosh and Pedarsani, Ramtin},
+  journal={arXiv preprint arXiv:2507.05394},
+  year={2025}
+}
+```

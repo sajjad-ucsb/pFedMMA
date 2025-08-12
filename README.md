@@ -1,6 +1,6 @@
 # pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models
 The implementation of paper pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models.
-[[paper]]()
+[[paper]](https://arxiv.org/pdf/2507.05394)
 ![pFedMMA-pipeline](pFedMMA.png "pFedMMA-pipeline")
 ## How to Run
 

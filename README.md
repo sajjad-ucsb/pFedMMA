@@ -1,4 +1,4 @@
-# pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models
+# pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models [ICLR 2026]
 The implementation of paper pFedMMA: Personalized Federated Fine-Tuning with Multi-Modal Adapter for Vision-Language Models.
 [[paper]](https://arxiv.org/pdf/2507.05394)
 ![pFedMMA-pipeline](pFedMMA.png "pFedMMA-pipeline")
